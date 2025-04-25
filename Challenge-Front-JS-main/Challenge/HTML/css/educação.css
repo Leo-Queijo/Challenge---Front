@@ -1,0 +1,75 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f1f8f9;
+  }
+  
+  header {
+    background-color: #3c9ecf;
+    color: white;
+    padding: 2rem 0 1rem;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  nav li a {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
+  .educacao-infantil {
+    background-color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .educacao-infantil h2 {
+    font-size: 2.5rem;
+    color: #3c9ecf;
+    margin-bottom: 3rem;
+  }
+  
+  .card {
+    background-color: #f4f9fb;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    background-color: #3c9ecf;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  @media (max-width: 767px) {
+    .card h3 {
+      font-size: 1.5rem;
+    }
+  
+    .card p {
+      font-size: 1rem;
+    }
+  }
+  
